@@ -1,0 +1,30 @@
+
+
+$font-large-size:3rem;
+$font-medium-size:2rem;
+$font-small-size:2rem;
+$primary-font-color:#d353be;
+$secondary-font-color:#acf109;
+$primary-background-color:#1a0750;
+$active-button-color:#481A6C;
+$static-object-background:#19011a;
+$glowing-text:rgba(255, 255, 255, 0.9);
+
+$gauge-color:#1ABC9C;
+
+*,*::before,*::after 
+{
+  box-sizing: border-box; 
+}
+*:focus
+{
+    outline: none;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
