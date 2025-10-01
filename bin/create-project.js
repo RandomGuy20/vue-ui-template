@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import { 
@@ -56,7 +57,7 @@ function CreateProject(projectName)
 
     mkdirSync(targettedDirectory, {recursive: true});
 
-    copyDirectory(root, targettedDirectory);
+    CopyDirectory(root, targettedDirectory);
 
     try
     {

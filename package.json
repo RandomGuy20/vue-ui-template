@@ -1,7 +1,7 @@
 {
   "name": "americansound-vue-template",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.3",
   "bin": {
     "americansound-vue-template": "bin/create-project.js"
   },
@@ -9,6 +9,7 @@
     "src/",
     "public/",
     "TSW/",
+    "dist/",
     "webxpanel/",
     "index.html",
     "vite.config.js",
