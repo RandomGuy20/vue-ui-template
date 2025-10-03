@@ -1,7 +1,7 @@
 {
   "name": "americansound-vue-template",
   "private": false,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "bin": {
     "americansound-vue-template": "bin/create-project.js"
   },
