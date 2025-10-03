@@ -1,7 +1,7 @@
 {
   "name": "americansound-vue-template",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "bin": {
     "americansound-vue-template": "bin/create-project.js"
   },
@@ -44,7 +44,6 @@
     "@crestron/ch5-crcomlib": "^2.16.0",
     "@crestron/ch5-utilities": "^0.1.52",
     "@crestron/ch5-webxpanel": "^2.8.0",
-    "node": "^22.20.0",
     "sass": "^1.89.2",
     "scss": "^0.2.4",
     "vite-plugin-singlefile": "^2.2.0",
@@ -56,15 +55,15 @@
     "@crestron/ch5-crcomlib": "^2.16.0",
     "@crestron/ch5-utilities": "^0.1.52",
     "@crestron/ch5-webxpanel": "^2.8.0",
+    "@vitejs/plugin-vue": "^5.2.3",
     "node": "^22.20.0",
     "sass": "^1.89.2",
     "scss": "^0.2.4",
+    "vite": "^6.3.5",
     "vite-plugin-singlefile": "^2.2.0",
     "vite-plugin-static-copy": "^3.0.0",
     "vue": "^3.5.22",
-    "vue-router": "^4.5.1",
-    "@vitejs/plugin-vue": "^5.2.3",
-    "vite": "^6.3.5"
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.3",
