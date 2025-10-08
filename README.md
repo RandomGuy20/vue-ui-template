@@ -1,3 +1,6 @@
+
+# Use this command npx americansound-vue-template <insert project name>
+
 # American Sound Vue Template
 
 # This is a Vue template that will automatically set up the following
