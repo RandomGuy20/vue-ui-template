@@ -2,20 +2,7 @@
 
 <template>
 
-  <PowerPage />
-  <PowerCountdownPage />
   <div class="app-container">
-    <Header
-    :headerImagePath="headerImage"
-    headerBanner="Simple Vue JS Example"
-    />
-
-
-    <router-view></router-view>
-
-
-
-    <Footer/>
 
 
   </div>
@@ -26,12 +13,6 @@
 
 
 <script >
-
-
-import Header from './components/Static/Header.vue';
-import Footer from './components/Static/Footer.vue';
-import PowerPage from './components/Modals/PowerPage.vue';
-import PowerCountdownPage from './components/Modals/PowerCountdownPage.vue';
 
 
 
@@ -48,10 +29,7 @@ export default
     // ],
     components:
     {
-        Header,
-        Footer,
-        PowerPage, 
-        PowerCountdownPage,
+
     },
     // provide()
     // {
@@ -61,7 +39,7 @@ export default
     data()
     {
         return{
-          headerImage: HeaderImage
+          
         }
     },
     methods:

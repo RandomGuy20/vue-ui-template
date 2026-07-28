@@ -1,7 +1,7 @@
 {
   "name": "americansound-vue-template",
   "private": false,
-  "version": "1.0.5",
+  "version": "1.0.6",
   "bin": {
     "americansound-vue-template": "bin/create-project.js"
   },
@@ -30,14 +30,14 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "sass:watch": "sass --watch src/scss:src/css",
+    "sass:watch": "sass --watch src/Views/SCSS :src/Views/css",
     "build:crestron": "vite build --base ./",
     "build:touchpanel": "ch5-cli archive -p projectTSW -d dist -o TSW",
     "build:webxpanel": "ch5-cli archive -p projectWebXpanel -d dist -o webxpanel ",
     "build:all:onestep": "npm run build:crestron && npm run build:webxpanel && npm run build:touchpanel",
     "one-step": "npm run build:crestron && npm run build:archive",
-    "deploy:webxpanel": "ch5-cli deploy -p -H 192.168.1.163 -t web webxpanel/exampleWebXPanel.ch5z",
-    "deploy:panel": "ch5-cli deploy -p -H 192.168.1.17 -t touchscreen TSW/exampleTSW.ch5z --slow-mode",
+    "deploy:webxpanel": "ch5-cli deploy -p -H iphere -t web webxpanel/exampleWebXPanel.ch5z",
+    "deploy:panel": "ch5-cli deploy -p -H 1iphere  -t touchscreen TSW/exampleTSW.ch5z --slow-mode",
     "create-project": ""
   },
   "peerDependencies": {
