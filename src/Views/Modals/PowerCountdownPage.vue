@@ -7,7 +7,7 @@
 
     <section class="power-countdown-container">
         <p class="power-countdown-text">
-            System is powering down please wait <br></br>
+            System is powering down please wait <br>
             <span class="power-countdown-number">
                 {{timeLeft}}
             </span>
@@ -71,7 +71,7 @@ export default
 
 <style scoped lang="scss">
 
-@use "../../SCSS/mainStyles.scss" as *;
+@use "../../Views/SCSS/mainStyles.scss" as *;
 
 .powering-down-container
 {

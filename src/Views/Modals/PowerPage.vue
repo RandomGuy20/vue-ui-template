@@ -56,7 +56,7 @@ export default
     {
         SetpageVisibility(value)
         {
-            this.isVisible = value === 1 ? true : false;
+            this.isVisible = value === 1;
         },
         PowerButtonClicked(state,value)
         {
@@ -86,7 +86,7 @@ export default
 
 <style scoped lang="scss">
 
-@use "../../SCSS/mainStyles.scss" as *;
+@use "../../Views/SCSS/mainStyles.scss" as *;
 @use "sass:color";
 .power-container
 {

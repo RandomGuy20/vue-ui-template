@@ -64,7 +64,7 @@ export default
 
 <style scoped lang="scss">
 
-@use "../../SCSS/mainStyles.scss" as *;
+@use "../../Views/SCSS/mainStyles.scss" as *;
 
 .audio-container
 {
